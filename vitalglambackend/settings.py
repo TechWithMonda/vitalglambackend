@@ -35,6 +35,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'http://vitalglambackend.onrender.com',
+    "vitalglambackend.onrender.com",
 ]
 
 
@@ -64,6 +65,8 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://vitalglambackend.onrender.com",
+    "vitalglambackend.onrender.com",
 ]
 ROOT_URLCONF = 'vitalglambackend.urls'
 
